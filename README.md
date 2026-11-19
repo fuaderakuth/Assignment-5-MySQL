@@ -3,7 +3,7 @@ DDL Commands and Constraints
 
 The below queries has been used for the assignment:
 
-Create Database employee;
+``` Create Database employee;
 USE employee;
 
 CREATE TABLE departments
@@ -28,7 +28,7 @@ salary decimal (10,2));
 Alter table employees add email varchar (150);
 alter table employees modify designation varchar (300);
 alter table employees drop column age;
-alter table employees rename column hire_date to date_of_joining;
+alter table employees rename column hire_date to date_of_joining; ```
 
 rename table departments to departments_info;
 rename table location to locations;
