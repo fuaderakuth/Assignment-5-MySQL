@@ -2,8 +2,8 @@
 DDL Commands and Constraints
 
 The below queries has been used for the assignment:
-
-``` Create Database employee;
+```
+Create Database employee;
 USE employee;
 
 CREATE TABLE departments
